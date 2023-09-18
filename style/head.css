@@ -200,3 +200,36 @@ body>a:hover
 {
 	background-color:cyan;
 }
+@media only screen and (max-width: 400px)
+{
+	body
+	{
+		width: 320px;
+		font-size: small;
+	}
+	.img>img 
+	{
+		width: 80px;
+		height: 80px;
+		border-radius: 30%;
+	}
+	.ns
+	{
+		margin: -32px 0px 0px 30px;
+		font-size: 12px;
+	}
+	
+	.lk>h4>a>img
+	{
+		top:20px;
+		left:-30px;
+		
+	}
+	.ad{
+		display: none;
+	}
+	.hid
+	{
+		display: none;
+	}
+}
